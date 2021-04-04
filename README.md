@@ -27,4 +27,5 @@
 ## Snapshots
 Question 1
 ![alt text](https://github.com/chew802/post-api/blob/master/README/question1.PNG?raw=true)
+Question 2
 ![alt text](https://github.com/chew802/post-api/blob/master/README/question2.PNG?raw=true)
