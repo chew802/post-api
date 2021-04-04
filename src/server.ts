@@ -1,16 +1,12 @@
 import express, { Request, Response } from "express";
-import swaggerUi from "swagger-ui-express";
-import swaggerDocument from "./doc/swagger.json";
-import { getCharacters, getCharacterById } from "./modules/character/character";
+import { getSortedPosts, searchComments } from './modules/post/post';
 
 const app = express();
 const { PORT = 8080 } = process.env;
 
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.get("/posts", getSortedPosts);
 
-app.get("/characters", getCharacters);
-
-app.get("/characters/:characterId", getCharacterById);
+app.get("/comments", searchComments);
 
 app.listen(PORT, () => {
   console.log("server started at http://localhost:" + PORT);
