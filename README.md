@@ -33,5 +33,5 @@ Create a new file name with `.env`, then insert below lines and replace xxxx wit
 
 ## Snapshots
 Question 1
-![alt text](https://github.com/chew802/post-api/blob/main/README/question1.PNG?raw=true)
-![alt text](https://github.com/chew802/post-api/blob/main/README/question2.PNG?raw=true)
+![alt text](https://github.com/chew802/post-api/blob/master/README/question1.PNG?raw=true)
+![alt text](https://github.com/chew802/post-api/blob/master/README/question2.PNG?raw=true)
