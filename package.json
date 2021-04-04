@@ -1,5 +1,5 @@
 {
-  "name": "marvel-character-api",
+  "name": "post-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chew802/marvel-character-api.git"
+    "url": "git+https://github.com/chew802/post-api.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chew802/marvel-character-api/issues"
+    "url": "https://github.com/chew802/post-api/issues"
   },
-  "homepage": "https://github.com/chew802/marvel-character-api#readme",
+  "homepage": "https://github.com/chew802/post-api#readme",
   "devDependencies": {
     "@types/jest": "^26.0.22",
     "@types/md5": "^2.3.0",
